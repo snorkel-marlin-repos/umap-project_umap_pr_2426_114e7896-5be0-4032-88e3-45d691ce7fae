@@ -465,12 +465,6 @@ export class WithEvents {
   }
 }
 
-export function isWritable(element) {
-  if (['TEXTAREA', 'INPUT'].includes(element.tagName)) return true
-  if (element.isContentEditable) return true
-  return false
-}
-
 export const COLORS = [
   'Black',
   'Navy',
